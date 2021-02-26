@@ -59,7 +59,7 @@ class Inline:
     roof_inline = types.InlineKeyboardMarkup()
     sheet_button = types.InlineKeyboardButton(text='Листовые материалы', callback_data='sheet')
     flexible_button = types.InlineKeyboardButton(text='Гибкая кровля', callback_data='flex')
-    ceramic_roof_button = types.InlineKeyboardButton(text='Штучные материалы', callback_data='ceramic_roof')
+    ceramic_roof_button = types.InlineKeyboardButton(text='Керамическая черепница', callback_data='ceramic_roof')
     roof_inline.insert(sheet_button)
     roof_inline.add(flexible_button)
     roof_inline.add(ceramic_roof_button)
